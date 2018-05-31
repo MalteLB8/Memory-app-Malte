@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" manifest="manifest.appcache">
+	<!--manifest="manifest.appcache"-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Memory app - Himmelev</title>
+  <link rel="manifest" href="web-app-manifest.json">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="apple-touch-icon-precomposed" href="icon.png">
+  
+  
+   <link rel="stylesheet" href="style.css">
+  
+    
+  
+</head>
+
+<body>
+
+  <div id="welcome">
+<h1>Velkommen til verdens bedste vendespil</h1>
+<p>Vælg det antal brikker du vil spille med</p>
+
+<form id="playGame">
+  <input type="radio" name="level" value="16" id="sixteen" checked></input>
+  <label for="sixteen">16</label>
+  <input type="radio" name="level" value="20" id="twenty"></input> 
+  <label for="twenty">20</label>
+  <input type="radio" name="level" value="24" id="twentyfour"></input>
+  <label for="twentyfour">24</label>
+
+  <button type="submit">Start spillet</button>
+</form>
+</div>
+<div id="board">
+  
+
+  
+</div>
+</div>
+<div id="message">
+  <p>Tillykke, Du vandt</p>
+  <button>Slut spillet!</button>
+</div>
+  
+  
+
+    <script  src="index.js"></script>
+
+
+
+
+</body>
+
+</html>
