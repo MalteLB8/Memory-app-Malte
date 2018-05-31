@@ -9,8 +9,8 @@
 ];
 "theme_color": "#9E9E9E";
 "background_color": "#9E9E9E";
-"scope": "/memoryapp/";
-"start_url": "/memoryapp/index.html";
+"scope":  "maltelb8.github.io/Memory-app-Malte/";
+"start_url": "maltelb8.github.io/Memory-app-Malte/index.html";
 "display": "standalone";
 "orientation": "portrait"
 }
